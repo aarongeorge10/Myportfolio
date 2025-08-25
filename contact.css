@@ -1,0 +1,56 @@
+.cont-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("files/img3.webp");
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column; 
+  gap: 12px; 
+  width: 100%;
+  max-width: 400px; 
+}
+.details {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent box */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+}
+
+
+label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #1724e0;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #7d8594;
+}
